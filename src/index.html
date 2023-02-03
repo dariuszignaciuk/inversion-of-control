@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>InversifyJS test app</title>
+        <style>
+            body {
+                font-family: sans-serif;
+                color: #1000ff;
+            }
+            .buttons {
+                display: flex;
+                justify-content: center;
+            }
+            .button-box {
+                padding: 10px;
+                margin: 20px;
+                border: 1px solid;
+                box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+                cursor: pointer;
+            }
+            #iframe {
+                display: none;
+                margin: auto;
+            }
+            #greeting {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="buttons">
+            <div class="button-box" id="artistButton">Pumped up kicks</div>
+            <div class="button-box" id="coverArtistButton">Pumped up kicks cover</div>
+        </div>
+        <p id="greeting"></p>
+        <iframe id="iframe" width="500" height="300" allow="autoplay;"></iframe>
+    </body>
+</html>

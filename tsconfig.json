@@ -1,14 +1,12 @@
 {
     "compilerOptions": {
-        "target": "es5",
-        "lib": ["es6"],
+        "target": "ES5",
+        "lib": [ "ES6", "DOM"],
         "types": ["reflect-metadata"],
         "module": "commonjs",
         "moduleResolution": "node",
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
-        "rootDir": ".",
-        "outDir": "build",
         "allowSyntheticDefaultImports": true,
         "importHelpers": true,
         "alwaysStrict": true,
@@ -16,8 +14,6 @@
         "forceConsistentCasingInFileNames": true,
         "noFallthroughCasesInSwitch": true,
         "noImplicitReturns": true,
-        "noUnusedLocals": true,
-        "noUnusedParameters": true,
         "noImplicitAny": false,
         "noImplicitThis": false,
         "strictNullChecks": false
