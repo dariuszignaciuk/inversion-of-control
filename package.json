@@ -1,0 +1,27 @@
+{
+    "name": "inversion-of-control",
+    "version": "1.0.0",
+    "description": "Inversion of control test app",
+    "engines": {
+        "node": ">= 16.13 <17"
+    },
+    "scripts": {
+        "start": "node build/src/main.js",
+        "prebuild": "npm run lint",
+        "build": "tsc -p tsconfig.json",
+        "build:watch": "tsc -w -p tsconfig.json",
+        "lint": "eslint . --ext .ts --ext .mts",
+        "prettier": "prettier --config .prettierrc --write ."
+    },
+    "devDependencies": {
+        "@types/node": "~18",
+        "@typescript-eslint/eslint-plugin": "~5.44",
+        "@typescript-eslint/parser": "~5.44",
+        "eslint": "~8.28",
+        "eslint-config-prettier": "~8.5",
+        "inversify": "^6.0.1",
+        "prettier": "~2.8",
+        "reflect-metadata": "^0.1.13",
+        "typescript": "~4.9"
+    }
+}
